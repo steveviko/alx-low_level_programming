@@ -23,6 +23,7 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
 /**
  *op_mul - multiplies two numbers.
  *@a: first number.
