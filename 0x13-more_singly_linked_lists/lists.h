@@ -1,11 +1,8 @@
 #ifndef _LISTS_
 #define _LISTS_
 
-
 #include <stdio.h>
 #include <stdlib.h>
-
-
 /**
  *struct listint_s - singly linked list
  *@n: integer
@@ -19,9 +16,7 @@ typedef struct listint_s
 	int n;
 	struct listint_s *next;
 
-} listint_t;
-
-
+}listint_t;
 
 /**
  *struct listp_s - singly linked list
@@ -35,8 +30,7 @@ typedef struct listp_s
 	void *p;
 	struct listp_s *next;
 
-} listp_t;
-
+}listp_t;
 
 
 size_t print_listint(const listint_t *h);
